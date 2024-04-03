@@ -22,7 +22,7 @@ public class ResponseHeaderPrintServlet extends HttpServlet {
 
         PrintWriter out = response.getWriter();
 
-        long currentTime = System.currentTimeMillis();
+        long currentTime = System.currentTimeMillis();  // 현재시간
 
         out.print("<h1>" + currentTime + "</h1>");
 
