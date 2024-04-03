@@ -25,6 +25,7 @@ public class ResponseTestServlet extends HttpServlet {
         * PrintWriter는 BufferedWriter와 형제격인 클래스이지만 더 많은 형태의 생성자를 제공하고 있는
         * 범용성으로 인해 더 많이 사용된다.*/
 
+        // 데이터 타입
         PrintWriter out = response.getWriter();
 
         StringBuilder responseBuilder = new StringBuilder();

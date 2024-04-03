@@ -8,7 +8,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 
 import java.io.IOException;
-
+                                            // 숫자가 낮을 수록 우선순위가 높아진다(실행 순서가 빨라진다).
 @WebServlet(value = "/annotation-lifecycle", loadOnStartup = 1)
 public class LifeCycleTestServlet extends HttpServlet {
 
